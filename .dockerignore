@@ -1,0 +1,14 @@
+.venv/
+venv/
+env/
+**/__pycache__/
+.ipynb_checkpoints/
+.workspace/
+.vscode/
+.git/
+# confidential organiser data must never be baked into an image
+data/
+notebooks/
+docs/
+results/
+tests/

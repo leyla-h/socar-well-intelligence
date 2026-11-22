@@ -1,0 +1,13 @@
+stream,model,2025-05-01,2025-06-01,2025-07-01,2025-08-01,ALL cut-offs
+gas,GOR from train tests,5.928,5.765,5.749,5.401,5.77
+gas,blend,5.625,5.919,5.522,5.635,5.686
+gas,team: GOR = Rs,5.712,6.27,5.751,5.947,5.911
+oil,"J + offset, all wells",3.919,2.949,3.361,2.535,3.332
+oil,J linear in time,8.781,8.074,5.848,4.935,7.403
+oil,"J, never offset",2.262,2.154,2.248,2.532,2.265
+oil,"team (J, offset by LOO rule)",1.904,2.008,2.098,2.542,2.064
+water,ENSEMBLE: mean of both (new),6.305,5.482,5.443,5.408,5.759
+water,Jw constant (no trend),15.723,15.83,16.22,16.37,15.952
+water,Jw linear in t,6.135,5.722,5.467,5.575,5.794
+water,WOR linear in t x oil,7.432,5.768,5.368,5.349,6.219
+water,team: Jw = exp(a+bt),6.572,5.934,5.799,5.511,6.075

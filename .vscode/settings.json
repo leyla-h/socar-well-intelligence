@@ -1,0 +1,5 @@
+{
+  "jupyter.notebookFileRoot": "${fileDirname}",
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": { "**/__pycache__": true, ".workspace": true }
+}

@@ -1,0 +1,14 @@
+# environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# app session files and intermediate notebook outputs
+.workspace/
+work/
+# organiser data is confidential - keep it out of git
+data/*
+!data/README.md

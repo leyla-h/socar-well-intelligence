@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quyu well intelligence studio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2313201A'/%3E%3Cpath d='M13 6h6v3h-6zM11 9h10v3H11zM14.5 12h3v14h-3z' fill='%23E7A445'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/css/app.css">
+  <script>
+    try { const t = localStorage.getItem('quyu-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true"><rect x="10" y="3" width="8" height="3" rx="1"/><rect x="7" y="7" width="14" height="4" rx="1"/><rect x="12.5" y="12" width="3" height="13"/><rect x="4" y="24" width="20" height="2" rx="1"/></svg>
+      <span class="brand-name">Quyu</span>
+      <span class="brand-sub">well intelligence studio</span>
+    </div>
+    <nav class="wellstrip" id="wellstrip" aria-label="Wells"></nav>
+    <div class="top-actions">
+      <span class="model-pill" id="model-pill" title="Trained model in use"></span>
+      <button class="icon-btn" id="theme-btn" aria-label="Switch between day and night theme" title="Day / night (T)">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="sun" d="M12 4V2M12 22v-2M4 12H2m20 0h-2M5.6 5.6 4.2 4.2m15.6 15.6-1.4-1.4M18.4 5.6l1.4-1.4M4.2 19.8l1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path class="moon" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <aside class="spine" id="spine" aria-label="Workflow"></aside>
+
+  <main id="main" tabindex="-1">
+    <div id="stage"></div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/static/vendor/plotly.min.js"></script>
+  <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

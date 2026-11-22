@@ -1,0 +1,14 @@
+# Quyu well intelligence studio - Python 3.10+
+# pandas is capped below 3.1: the submitted CSVs reproduce byte-for-byte on pandas 2.2 and 3.0;
+# pandas 3.1 changes float summation, which moves some daily rates by up to 0.04 stb/d (0.003%).
+pandas>=2.0,<3.1
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+openpyxl>=3.1
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+# to run the notebooks inside VS Code
+ipykernel>=6.0
+# tests: pip install pytest   (or run python tests/test_reproduce.py directly)
